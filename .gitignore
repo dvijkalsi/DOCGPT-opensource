@@ -1,0 +1,20 @@
+/venv
+.env
+**/__pycache__
+test.py
+test.pdf
+/db
+db/chroma-collections.parquet
+db/chroma-embeddings.parquet
+source/HUSQ_Code of Conduct English .pdf
+source/OMDP Husqvarna Group - White Collar.docx
+source/Onboarding Checklist Husqvarna Group - English 230403.xlsx
+source/Pension and other Benefits_Policy.docx
+source/Recruitment_Policy.docx
+source/Short Term Incentive (STI)_Policy.docx
+source/Travel_Policy.docx
+source/Vehicle_Policy.docx
+models/ggml-mpt-7b-base.bin
+db/chroma-embeddings.parquet
+db/chroma-collections.parquet
+db/chroma-collections.parquet
