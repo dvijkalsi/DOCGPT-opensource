@@ -1,16 +1,19 @@
-![GitHub User's stars](https://img.shields.io/github/stars/RajKKapadia?style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/RajKKapadia?style=for-the-badge)
+# DOCGPT-opensource
 
-# Document ChatGPT
-Query any PDF document using Langchain and Openai.
+Ingest your documents using a vector database and hugging-face embeddings and use an open-source gpt model to ask questions related to the document using a Gradio frontend chat interface
 
-### Youtube video
-You can see how to use this repository [here](https://youtu.be/GquavcLUplE)
+# step 1
+Create a folder 'model' and add the quantized groovy model which you can get from https://gpt4all.io/
+In conversation.py Edit MODEL_PATH = "" with the absolute location of your model
 
-# About me
-I am `Raj Kapadia`, I am passionate about `AI/ML/DL` and their use in different domains, I also love to build `chatbots` using `Google Dialogflow ES/CX`, I have backend development experience with Python[Flask], and NodeJS[Express] For any work, you can reach out to me at...
+# step 2
+Create a folder 'source' and add all the documents that you want to ingest
 
-* [LinkedIn](https://www.linkedin.com/in/rajkkapadia/)
-* [Fiverr](https://www.fiverr.com/rajkkapadia​)
-* [Upwork](https://www.upwork.com/freelancers/~0176aeacfcff7f1fc2)
-* [Youtube](https://www.youtube.com/channel/UCOT01XvBSj12xQsANtTeAcQ)
+# step 3
+Run index.py which should create a vector database in the folder 'db' ingesting the documents
+
+# step 4
+Run bot.py to create a frontend using gradio and then you can ask your questions related to the document there
+
+YAY, YOU'RE DONE!!
+
